@@ -1,133 +1,170 @@
-
-body{
-    background-color: aliceblue;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+body {
+  margin-top: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+  background-color: ##eee7fb;
+  font-family: 'Josefin Sans', sans-serif; 
 }
 
-.calculator{
-    box-shadow: 0 0 25px 7px rgb(31, 26, 63);
-    background-color: rgb(120, 105, 149);
-    padding: 40px;
-    width: 400px;
-    border-radius: 38px;
+.calculator {
+  box-shadow: 0px 0px 20px 5px #3c2d565f;
+  border-radius: 30px;
+  background-color: #7c75fb;
+  padding: 40px;
+  width: 400px;
 }
 
-.display{
-    height: 8vh;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    margin-bottom: 10%;
-    background-color: aliceblue;
-    padding: 12px;
-    font-size: 2.5rem;
+.display {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 40px;
+  background-color: #daf0f957;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 2em;
 }
 
-.input{
-    color: rgb(7, 78, 140);
-    font-size: 3rem;
+.input {
+  font-size: 1.6em;
+  color: #ffe6c7;
 }
 
-.buttons{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 25px;
-
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
 }
 
-.btn{
-    border: none;
-    border-radius: 13px;
-    padding: 25px 0;
-    font-size: 2.5em;
-    background-color: gray;
-    color: aliceblue;
-    box-shadow: 0 0 10px 10px blue;
+.btn {
+  border: none;
+  border-radius: 10px;
+  padding: 20px 0;
+  font-size: 2em;
+  transition: background-color 0.3s ease;
+  background-color: #ba7af5;
+  box-shadow: 0px 0px 8px 1.6px #7303ea7c;
+  color: #ebf6fa;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
-.btn:hover{
-    background-color: aqua;
+.btn:hover {
+  background-color: #b3fafd52;
+  box-shadow: 0px 0px 8px 1.6px #89ecf987;
 }
 
-.op{
-    color: purple;
+.op {
+  color: #fe0485;
 }
 
-.zero{
-    grid-column: span 2;
+.zero {
+  grid-column: span 2;
+  border-radius: 10px;
 }
 
-.equals{
-    grid-column: span 2;
-    color: cadetblue;
+.equals {
+  grid-column: span 2;
+  border-radius: 10px;
+  color: #fe0485;
+  background-color: #d5d3ff;
 }
 
 
-@media only screen and (max-with: 700px) {
-    .calculator {
-        padding: 30px;
-        width: 200px;
-    }
+@media only screen and (max-width: 700px) {
+  .calculator {
+    padding: 24px;
+    width: 240px;
+    height: 350px;
+  }
 
-    .display {
-        height: 60px;
-        margin-bottom: 30px;
-        font-size: 2em;
-    }
+  .display {
+    height: 48px;
+    margin-bottom: 24px;
+    font-size: 1.5em;
+  }
 
-    .buttons {
-        gap: 15px;
-    }
+  .buttons {
+    gap: 10px;
+  }
 
-    .btn {
-        padding: 15px o;
-        font-size: 1.6em;
-    }
+  .btn {
+    padding: 10px 0;
+    font-size: 1.28em;
+  }
 }
 
-@media only screen and (max-with: 500px) {
-    .calculator {
-        padding: 20px;
-        width: 250px;
-    }
 
-    .display {
-        height: 50px;
-        margin-bottom: 20px;
-        font-size: 1.6em;
-    }
+@media only screen and (max-width: 500px) {
+  .calculator {
+    padding: 18px;
+    width: 200px;
+  }
 
-    .buttons {
-        gap: 10px;
-    }
+  .display {
+    height: 48px;
+    margin-bottom: 18px;
+    font-size: 1.1em;
+  }
 
-    .btn {
-        padding: 10px o;
-        font-size: 1.3em;
-    }
+  .buttons {
+    gap: 8px;
+  }
+
+  .btn {
+    padding: 8px 0;
+    font-size: 1em;
+  }
 }
 
-@media only screen and (max-with: 365px) {
-    .calculator {
-        padding: 10px;
-        width: 180px;
-    }
 
-    .display {
-        height: 40px;
-        margin-bottom: 10px;
-        font-size: 1.2em;
-    }
+@media only screen and (max-width: 300px) {
+  .calculator {
+    padding: 8px;
+    width: 144px;
+    height: 230px;
+    border-radius: 20px;
+  }
 
-    .buttons {
-        gap: 5px;
-    }
+  .display {
+    height: 32px;
+    margin-bottom: 8px;
+    font-size: 0.8em;
+  }
 
-    .btn {
-        padding: 5px o;
-        font-size: 1em;
-    }
+  .buttons {
+    gap: 7px;
+  }
+
+  .btn {
+    padding: 4.5px 0;
+    font-size: 0.9em;
+  }
+}
+
+
+@media only screen and (max-width: 200px) {
+  .calculator {
+    padding: 5px;
+    border-radius: 10px;
+    width: 80px;
+    height: 110px;
+  }
+
+  .display {
+    height: 10px;
+    margin-bottom: 2px;
+    font-size: 0.5em;
+  }
+
+  .buttons {
+    gap: 3px;
+  }
+
+  .btn {
+    padding: 1.2px 0;
+    font-size: 0.5em;
+  }
 }
