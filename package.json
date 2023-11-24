@@ -1,0 +1,15 @@
+{
+  "name": "calculatorproject3",
+  "version": "1.0.0",
+  "description": "Calculator project with js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "calculatorproject3"
+  },
+  "author": "Johana",
+  "license": "ISC"
+}
