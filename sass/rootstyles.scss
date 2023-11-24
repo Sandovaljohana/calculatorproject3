@@ -1,0 +1,115 @@
+
+// Color system
+
+$blue: #daf0f957 !default;
+$softpurple: #ba7af5 !default;
+$purple: #7c75fb !default;
+$dark-purple: #3c2d565f !default;
+$lila: #eee7fb !default;
+$softlila: #d5d3ff !default;
+$pink: #fe0485 !default;
+$violet: #7303ea7c !default;
+$yellow: #ffe6c7 !default;
+$teal: #89ecf987 !default;
+$grayandcyan: #b3fafd52 !default;
+$black: #00000052 !default;
+$bluewhite: #ebf6fa !default;
+$gray: #7c7c7c8a !default;
+
+
+$colors: (
+    "blue": $blue,
+    "softpurple": $softpurple,
+    "purple": $purple,
+    "dark-purple": $dark-purple,
+    "lila": $lila,
+    "pink": $pink,
+    "softlila": $softlila,
+    "violet": $violet,
+    "yellow": $yellow,
+    "teal": $teal,
+    "grayandcyan": $grayandcyan,
+    "black": $black,
+    "bluewhite": $bluewhite,
+    "gray": $gray,
+);
+
+
+$primary-color: $purple !default;
+$secondary: $softpurple !default;
+$success: $pink !default;
+$background-color: $lila !default;
+$warning: $yellow !default;
+$info: $blue !default;
+$light: $yellow !default;
+$btn-shadows: $violet !default;
+$btn-shadows-hover: $teal !default;
+
+
+$border-none: none;
+
+$border-radius-1: 30px !default;
+$border-radius-2: 20px !default;
+$border-radius-3: 10px !default;
+
+$padding-1: 40px;
+$padding-2: 24px;
+$padding-3: 20px;
+$padding-4: 18px;
+$padding-5: 10px;
+$padding-6: 8px;
+$padding-7: 5px;
+$padding-8: 8px 0px;
+$padding-9: 4.5px 0px;
+$padding-10: 1.2px 0px;
+$padding-11: 20px 0px;
+
+$margin-top: 1%;
+
+$margin-bottom-1: 40px;
+$margin-bottom-2: 24px;
+$margin-bottom-3: 18px;
+$margin-bottom-4: 8px;
+$margin-bottom-5: 2px;
+
+$box-shadow-calculator: 0px 0px 20px 5px, $dark-purple;
+$box-shadow-btnhover: 0px 0px 8px 1.6px, $teal;
+
+
+$font-family: "Josefin Sans",sans-serif !default;
+
+$font-size-display-1: 1.6em;
+$font-size-display-2: 1.5em;
+$font-size-display-3: 1.1em;
+$font-size-display-4: 0.8em;
+$font-size-display-5: 0.6em;
+
+$font-size-btn-1: 2em;
+$font-size-btn-2: 1.28em;
+$font-size-btn-3: 1em;
+$font-size-btn-4: 0.7em;
+$font-size-btn-5: 0.5em;
+
+
+
+@mixin grid-container($columns: 4, $gap: 20px) {
+    display: grid;
+    grid-template-columns: repeat($columns, 1fr);
+    gap: $gap;
+}
+
+
+@mixin display-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin display-flex-end {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+

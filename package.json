@@ -1,15 +1,15 @@
 {
   "name": "calculatorproject3",
   "version": "1.0.0",
-  "description": "Calculator project with js",
+  "description": "![Blueberry Calculator](https://github.com/Sandovaljohana/calculatorproject3/assets/149192818/14551c4f-5907-4245-aa89-67a4c84bc2f7) This is a simple calculator developed using HTML, CSS, and JavaScript. It allows performing basic mathematical operations such as addition, subtraction, multiplication, and division.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-watcher": "npx sass --watch sass/input.scss:public/src/styles/output.css"
   },
-  "repository": {
-    "type": "git",
-    "url": "calculatorproject3"
-  },
-  "author": "Johana",
-  "license": "ISC"
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.69.5"
+  }
 }

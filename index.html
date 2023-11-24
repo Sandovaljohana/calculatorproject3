@@ -1,44 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./public/src/calculatorstyles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
-    <link rel="icon" href="favicon.png" type="image/png">
-<link rel="icon" href="./public/src/images/favicon.png" type="image/png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./public/src/styles/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="favicon.png" type="image/png" />
+    <link rel="icon" href="./public/src/images/favicon.png" type="image/png" />
+    <title>Calculator</title>
+  </head>
 
-<title>Calculator</title>
-</head>
-<body>
-    <div class="calculator">
-        <div class="display">
+  <body>
+  <header>
+  <img src="./public/src/images/Blueberry.png" alt="blueberrycalculator" class="responsive-img">
+  </header>
+
+  <main>
+<div class="calculator">
+      <div class="display">
         <span class="input" id="input">0</span>
-        </div>
-        <div class="buttons">
-            <button class="btn op" id="ac">AC</button>
-            <button class="btn op" id="de">DE</button>
-            <button class="btn op" id="dot">.</button>
-            <button class="btn op" id="divide">/</button>
-            <button class="btn num" id="7">7</button>
-            <button class="btn num" id="8">8</button>
-            <button class="btn num" id="9">9</button>
-            <button class="btn op" id="multiply">*</button>
-            <button class="btn num" id="4">4</button>
-            <button class="btn num" id="5">5</button>
-            <button class="btn num" id="6">6</button>
-            <button class="btn op" id="substract">-</button>
-            <button class="btn num" id="4">1</button>
-            <button class="btn num" id="5">2</button>
-            <button class="btn num" id="6">3</button>
-            <button class="btn op" id="add">+</button>
-            <button class="btn zero" id="0">0</button>
-            <button class="btn equals" id="equals">=</button>
-        </div>
+      </div>
+      <div class="buttons">
+        <button class="btn op" id="ac">AC</button>
+        <button class="btn op" id="de">DE</button>
+        <button class="btn op" id="dot">.</button>
+        <button class="btn op" id="divide">/</button>
+        <button class="btn num" id="7">7</button>
+        <button class="btn num" id="8">8</button>
+        <button class="btn num" id="9">9</button>
+        <button class="btn op" id="multiply">*</button>
+        <button class="btn num" id="4">4</button>
+        <button class="btn num" id="5">5</button>
+        <button class="btn num" id="6">6</button>
+        <button class="btn op" id="substract">-</button>
+        <button class="btn num" id="4">1</button>
+        <button class="btn num" id="5">2</button>
+        <button class="btn num" id="6">3</button>
+        <button class="btn op" id="add">+</button>
+        <button class="btn zero" id="0">0</button>
+        <button class="btn equals" id="equals">=</button>
+      </div>
     </div>
+  </main>
+    
 
     <script src="./public/js/functions.js"></script>
-</body>
+  </body>
 </html>

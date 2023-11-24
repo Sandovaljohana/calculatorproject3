@@ -1,0 +1,197 @@
+@import 'rootstyles';
+
+body{
+    margin-top: $margin-top;
+    height: 100%;
+    background-color: $lila;
+    font-family: $font-family;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.responsive-img {
+        max-width: 25%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+}
+
+main {
+   @include display-flex;
+}
+
+
+    .calculator {
+        box-shadow: $box-shadow-calculator;
+        border-radius: $border-radius-1;
+        background-color: $primary-color;
+        padding: $padding-1;
+        width: 400px;
+        margin-top: $margin-top;
+}
+
+.display {
+    @include display-flex-end;
+    height: 80px;
+    margin-bottom: $margin-bottom-1;
+    background-color: $blue;
+    padding: $padding-5;
+    border-radius: $border-radius-2;
+    font-size: $font-size-btn-1;
+}
+
+.input {
+    font-size: $font-size-display-1;
+    color: $yellow;
+}
+
+.buttons {
+    @include grid-container(4, 20px);
+}
+
+
+.btn {
+    border: $border-none;
+    border-radius: $border-radius-3;
+    padding: $padding-11;
+    font-size: $font-size-btn-1;
+    transition: background-color 0.3s ease;
+    background-color: $secondary;
+    box-shadow:$box-shadow-calculator;
+    color: $bluewhite;
+    font-family: $font-family;
+}
+
+.btn:hover {
+    background-color: $teal;
+    box-shadow: $box-shadow-btnhover;
+}
+
+.op {
+    color: $pink;
+}
+
+.zero {
+    grid-column: span 2;
+    border-radius: $border-radius-3;
+}
+
+.equals {
+    grid-column: span 2;
+    border-radius: 10px;
+    color: $pink;
+    background-color: $softlila;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .calculator {
+        padding: $padding-2;
+        width: 240px;
+        height: 350px;
+    }
+
+    .display {
+        height: 48px;
+        margin-bottom: $margin-bottom-2;
+        font-size: $font-size-display-2;
+    }
+
+    .buttons {
+        gap: 10px;
+    }
+
+    .btn {
+        padding: 10px 0;
+        font-size: $font-size-btn-2;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .body {
+        margin-top: 10%;
+    }
+
+    .calculator {
+        padding: 18px;
+        width: 200px;
+        height: 290px;
+    }
+
+    .display {
+        height: 48px;
+        margin-bottom: $margin-bottom-3;
+        font-size: $font-size-display-3;
+    }
+
+    .buttons {
+        gap: 8px;
+    }
+
+    .btn {
+        padding: $padding-8;
+        font-size: $font-size-btn-3;
+    }
+}
+
+
+@media only screen and (max-width: 300px) {
+    
+    .responsive-img {
+            max-width: 35%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+    
+    .calculator {
+        padding: $padding-6;
+        width: 144px;
+        height: 210px;
+        border-radius: $border-radius-2;
+    }
+
+    .display {
+        height: 32px;
+        margin-bottom: $margin-bottom-4;
+        font-size: $font-size-display-4;
+    }
+
+    .buttons {
+        gap: 7px;
+    }
+
+    .btn {
+        padding: $padding-9;
+        font-size: $font-size-display-4;
+    }
+}
+
+
+@media only screen and (max-width: 200px) {
+    .calculator {
+        padding: $padding-7;
+        border-radius: $border-radius-3;
+        width: 80px;
+        height: 107px;
+    }
+
+    .display {
+        height: 9px;
+        margin-bottom: 4px;
+        font-size: $font-size-btn-5;
+    }
+
+    .buttons {
+        gap: 3px;
+    }
+
+    .btn {
+        padding: $padding-10;
+        font-size: $font-size-btn-5;
+        background-color: $lila;
+        color: $black;
+    }
+}
