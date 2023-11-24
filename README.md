@@ -1,14 +1,12 @@
 
-![Blueberry Calculator](https://github.com/Sandovaljohana/calculatorproject3/assets/149192818/14551c4f-5907-4245-aa89-67a4c84bc2f7)
+![Blueberry-calculator](public/src/images/Blueberry.png)
+
 This is a simple calculator developed using HTML, CSS, and JavaScript. It allows performing basic mathematical operations such as addition, subtraction, multiplication, and division.
 
-<<<<<<< HEAD
-![calculator-purple](public/src/images/calculator.png)
-=======
-![Calculator](https://github.com/Sandovaljohana/calculatorproject3/assets/149192818/f32c8530-8c33-4b9e-ba63-c62d11528733)
->>>>>>> 4dded808b54a2cbebe392055efac66f2c64f95c9
+## Design ⤵
+![calculator](public/src/images/calculator.png)
 
-## Demo ⤵
+## Try it ⤵
 
 - https://sandovaljohana.github.io/calculatorproject3/
 
@@ -28,7 +26,6 @@ This is a simple calculator developed using HTML, CSS, and JavaScript. It allows
 
 ## ⚒ Technologies Used
 
-<<<<<<< HEAD
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -36,11 +33,6 @@ This is a simple calculator developed using HTML, CSS, and JavaScript. It allows
   </a>
 </p>
 
-=======
-- HTML: Basic structure of the calculator.
-- CSS: Styling and design of the user interface.
-- JavaScript: Logic for performing mathematical operations.
->>>>>>> 4dded808b54a2cbebe392055efac66f2c64f95c9
 
 ## 🏗 Project Structure
 
