@@ -1,6 +1,7 @@
-# calculatorproject3
+# Blueberry Basic Calculator
 
-# Basic Calculator
+![Calculator](https://github.com/Sandovaljohana/calculatorproject3/assets/149192818/f32c8530-8c33-4b9e-ba63-c62d11528733)
+
 
 This is a simple calculator developed using HTML, CSS, and JavaScript. It allows performing basic mathematical operations such as addition, subtraction, multiplication, and division.
 
@@ -37,6 +38,6 @@ This is a simple calculator developed using HTML, CSS, and JavaScript. It allows
 
 ## Demo
 
-- [Live Demo](#) 
+- [Live Demo](#) https://sandovaljohana.github.io/calculatorproject3/
 
 
