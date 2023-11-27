@@ -45,6 +45,7 @@ main {
 .input {
   font-size: 1.6em;
   color: #ffe6c7;
+  overflow-x: auto;
 }
 
 .buttons {

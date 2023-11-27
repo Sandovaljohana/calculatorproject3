@@ -44,6 +44,7 @@ main {
 .input {
     font-size: $font-size-display-1;
     color: $yellow;
+    overflow-x: auto;
 }
 
 .buttons {
