@@ -8,7 +8,7 @@ This is a simple calculator developed using HTML, CSS, and JavaScript. It allows
 
 ## Try it ⤵
 
-- https://sandovaljohana.github.io/calculatorproject3/
+https://blueberrycalculatora.netlify.app/
 
 ## ⭐ Features
 
